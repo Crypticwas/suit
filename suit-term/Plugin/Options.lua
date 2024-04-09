@@ -1,0 +1,6 @@
+--! strict
+
+return {
+    DevMode = false
+    
+}

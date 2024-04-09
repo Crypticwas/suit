@@ -1,0 +1,50 @@
+{
+    "ClassName": "ScrollingFrame",
+    "Properties": {
+        "BackgroundColor3": {"Color3uint8": [40, 40, 40]},
+        "Position": {"UDim2": [[0.0, 0], [0.0, 0]]},
+        "Size": {"UDim2": [[1.0, 0], [1.0, 0]]},
+        "AutomaticCanvasSize": "Y",
+        "CanvasSize": {"UDim2": [[0.0, 0], [0.0, 0]]},
+        "ScrollBarThickness": 0
+    },
+    "Children": [
+      {
+        "Name": "InputLine",
+        "ClassName": "TextBox",
+        "Properties": {
+            "BackgroundTransparency": 1,
+            "ClearTextOnFocus": false,
+            "LayoutOrder": 5000,
+            "Size": {"UDim2": [[1, 0], [0, 16]]},
+            "FontFace": {
+                "family": "rbxasset://fonts/families/GothamSSm.json",
+                "weight": "Medium",
+                "style": "Normal"
+            },
+            "TextColor3": {"Color3uint8": [240, 240, 240]},
+            "TextSize": 14,
+            "TextWrapped": true,
+            "TextXAlignment": "Left"
+        }
+      },
+      {
+        "ClassName": "UIListLayout",
+        "Properties": {
+            "Wraps": false,
+            "HorizontalAlignment": "Left",
+            "VerticalAlignment": "Top",
+            "SortOrder": "LayoutOrder"
+        }
+      },
+      {
+        "ClassName": "UIPadding",
+        "Properties": {
+            "PaddingBottom": {"UDim": [0, 15]},
+            "PaddingTop": {"UDim": [0, 15]},
+            "PaddingLeft": {"UDim": [0, 15]},
+            "PaddingRight": {"UDim": [0, 15]}
+        }
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+  "name": "SuitTerm",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "Plugin": {
+        "$path": "suit-term"
+      }
+    }
+  }
+}
